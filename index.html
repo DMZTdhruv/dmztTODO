@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dmztTODO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="blob-cover">
+    </div>
+    <div class="blob" id="blob"> </div>
+    <header>
+        <nav>
+            <div class="navfirst-part">
+                <h2 class="brand"><a href="">dmztTODO</a></h2>
+                <ul class="navlinks" data-visible="true">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#list">List</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="https://github.com/DMZTdhruv" target="_blank">Github</a></li>
+                </ul>
+            </div>
+            <div class="navsecond-part">
+                <button class="signup-btn btn">SingUp</button>
+            </div>
+            <button class="primary-navigation" id="menu">
+                <div class="hamburger center">
+                    <span>|</span>
+                    <span>|</span>
+                    <span>|</span>
+                </div>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container-wrapper center">
+                <div class="container">
+                    <div>
+                        <h2 class="brand" style="margin-bottom: 0.5rem;">dmztTODO</h2>
+                        <p>Greetings, This is Dhruv, I've created a todo list web app, I'm looking forward that this app
+                            will help you set task for your daily goals, Make sure to stay consistent, strong, positive
+                            and trust in god, Have a wonderful day and I hope you will complete your daily tasks keep Fighting!
+                        </p>
+                        <button class="btn home-pageBtn"><a href="">Source Code</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="list">
+            <div class="todo-list-wrapper center">
+                <div class="todo-list">
+                    <h3 class="list-heading">Add todo list here</h3>
+                    <div class="listItems">
+
+                    </div>
+                    <div class="add-listItems">
+                        <button id="add-item" class="add-list">
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <input type="text" id="listToAdd" class="list-input" placeholder="Add items here">
+                        <br>
+                        <div>
+                            <button class="delete">New List</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="center about">
+            <div class="accordian " >
+                <h2 style="text-align: center; margin-bottom: 1rem;">How to use it</h2>
+                <hr>
+                <div class="accordian-panel">
+                    <h2 id="panel1-title">
+                        <button class="accordion-trigger">
+                            1. <span class="helplist-head">
+                                Mobile
+                            </span>
+                        </button>
+                    </h2>
+                    <div class="accordian-content">
+                        <div>
+                            
+                            <hr>
+                            <ul class="help-list">
+                                <li>
+                                    <p>1. If you want to add a daily task, click on the "<b>Add items here</b>" text box
+                                        and type
+                                        your task. Then, click on the "<b>+</b>" icon to add your task to the list.</p>
+                                </li>
+                                <li>
+                                    <p>2. If you have completed a task, simply click on the checkbox preceding the list
+                                        item or
+                                        click on the task itself to mark it as complete, and it will be displayed with a
+                                        strike-through.</p>
+                                </li>
+                            </ul>
+                           
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="accordian-panel">
+                    <h2 id="panel1-title">
+                        <button class="accordion-trigger">
+                            2. <span class="helplist-head">
+                                Laptop
+                            </span>
+                        </button>
+                    </h2>
+                    <div class="accordian-content">
+                        <div>
+                           
+                            <ul class="help-list">
+                                <hr>
+                                <li>
+                                    <p>1. If you want to add a daily task, click on the "<b>Add items here</b>" text box
+                                        and type
+                                        your task. Then, click on the "<b>+</b>" icon or <b>Click Enter key</b> to add
+                                        your task to the list.</p>
+                                </li>
+                                <li>
+                                    <p>2. If you have completed a task, simply click on the checkbox preceding the list
+                                        item or
+                                        click on the task itself to mark it as complete, and it will be displayed with a
+                                        strike-through.</p>
+                                </li>
+
+                                <li>
+                                    <p>3. if you want to <b>Delete</b> You can delete the task in laptop by double clicking
+                                        a particular list it will remove from the list, this function may not work in
+                                        mobile devices</p>
+                                </li>
+                            </ul>
+        
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <p style="text-align: center; margin-top: 1rem;" >
+                    Thanks for using
+                    <br>&copy; Copyright Dhruv Parmar dmzt 2023
+                <div>
+                    <ul class="social-media-links center">
+                        <li><a href="https://instagram.com/dmzt_1719?igshid=NTc4MTIwNjQ2YQ==" target="_blank"><i class="fa-brands fa-instagram" ></i></a></li>
+                        <li><a href="https://youtube.com/@dmzt"  target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </p>
+                
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+        integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
